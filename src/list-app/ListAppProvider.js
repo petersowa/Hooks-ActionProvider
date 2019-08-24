@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ActionProvider } from "../reducers/ActionProvider";
+import ActionProvider from "../reducers/ActionProvider";
 import mutations from "./mutations";
 
 import ListApp from "./ListApp";

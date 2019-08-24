@@ -31,4 +31,4 @@ function ActionProvider(props) {
   );
 }
 
-export { ActionProvider };
+export default ActionProvider;

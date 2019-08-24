@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import ListProvider from "./list-app/ListProvider";
+import ListApp from "./list-app/ListAppProvider";
 
 import "./styles.css";
 
 function App() {
-  return <ListProvider />;
+  return <ListApp />;
 }
 
 const rootElement = document.getElementById("root");

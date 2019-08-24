@@ -22,8 +22,6 @@ function ListApp() {
     initialLoad();
   }, [initialLoad]);
 
-  console.log("ListApp");
-
   return errorMessage ? (
     <div>{errorMessage}</div>
   ) : (

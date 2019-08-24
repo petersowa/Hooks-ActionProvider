@@ -6,9 +6,12 @@ function TitleProvider() {
   const [count, setCount] = React.useState(0);
 
   React.useEffect(() => {
-    setTimeout(() => {
+    const timerID = setTimeout(() => {
       setCount(count + 1);
     }, 1000);
+    return () => {
+      clearTimeout(timerID);
+    };
   }, [count]);
 
   return (
